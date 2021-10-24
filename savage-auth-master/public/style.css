@@ -1,0 +1,66 @@
+body{
+  word-wrap:break-word;
+  background-color: black;
+  color:white;
+  background-image: url('img/roulettemiss.jpg');
+  background-size:contain;
+}
+
+
+h2{
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+}
+
+.btn{
+  border: none;
+  margin-left: 1em;
+  display: flex;
+  justify-content: center;
+  color: red;
+  background-color: grey ;
+
+}
+
+.container{
+  background-color: black;
+  height: 535px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.outcome{
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  font-size: 4em;
+
+}
+
+.inputBetLabel{
+  display: block;
+}
+.inputBet{
+  height: 4em;
+  width: 15em;
+  text-transform: uppercase;
+  display: block;
+}
+
+label{
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  font-size: 2em;
+
+}
+
+button{
+  font-family: 'Bebas Neue', Arial, Helvetica, sans-serif;
+  border: none;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(220 40 68);
+  height: 4em;
+  width: 15em;
+  margin-top: 2em;
+}

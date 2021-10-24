@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <title>Roulette</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <header>
+           <div class="login"> <h2>Casino Admin:</h2>
+                <a href="/login" class="btn btn-default">Login</a>
+           </div>
+        </header>
+
+
+        <div class="container">
+     
+
+                <form action="/" method="POST">
+                    <label for="color">Red</label>
+                    <input class="choice" type="checkbox" value="red" name="color"> 
+                    <label for="color">Green</label>
+                    <input class="choice" type="checkbox" value="green" name="color"> 
+                    <label for="color">Black</label>
+                    <input class="choice" type="checkbox" value="black" name="color"> 
+                    <label class="inputBetLabel">Your bet</label>
+                    <input type="bet" placeholder="bet" name="bet" class="choice inputBet" required>
+                    <button type="submit" class="submit">Spin</button>
+                </form>
+
+                <% if(outcome){ %>
+                    
+                    <h2 class="outcome">You <%=outcome%>!</h2>
+                    
+                    <% } %>
+
+
+
+
+
+        </div>  
+ 
+    </body>
+</html>
